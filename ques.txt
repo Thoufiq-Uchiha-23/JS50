@@ -1,0 +1,14 @@
+Here is a collection of 100 JavaScript questions, divided into groups of 10, based on topics 1-8, with increasing complexity
+
+1. Basic Console Usage (10 Questions)
+    1. Log your name and favorite hobby to the console.
+    2. Perform and log the result 45*2 -10
+    3. Use console.log() to display the current year
+    4. Create two variables for first and last name.
+        Concatenate and log them.
+    5. Track the value of variable by logging it before and after updating.
+    6. Use console.error() to simulate and error message.
+    7. Log the square of the number 12 to the console.
+    8. Print the type of variable holding the value true.
+    9. Create a variable holding your age and log whether it's greater than 18.
+    10. Log the result of 100 / 0 and 
