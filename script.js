@@ -57,5 +57,9 @@
 // console.log(typeof null) //OUTPUT: object
 
 // question 15
-let a = "22"
-console.log(typeof a) //OUTPUT: string
+// let a = "22"
+// console.log(typeof a) //OUTPUT: string
+
+// question 16
+let a = true;
+console.log(typeof a)   //OUTPUT: boolean
