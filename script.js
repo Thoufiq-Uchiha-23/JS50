@@ -29,5 +29,10 @@
 // console.log(Math.pow(12, 2))
 
 // question 8
-let a = true;
-console.log(typeof a)
+// let a = true;
+// console.log(typeof a)
+
+// question 9
+let age = 23;
+if (age > 18) console.log(true);
+else console.log(false);
