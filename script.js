@@ -22,4 +22,8 @@
 // console.log(a)
 
 // question 6
-console.error("something went wrong")
+// console.error("something went wrong")
+
+// question 7
+console.log(12 * 12)
+console.log(Math.pow(12, 2))
