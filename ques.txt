@@ -11,4 +11,4 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     7. Log the square of the number 12 to the console.
     8. Print the type of variable holding the value true.
     9. Create a variable holding your age and log whether it's greater than 18.
-    10. Log the result of 100 / 0 and 
+    10. Log the result of 100 / 0 and observe the output.
