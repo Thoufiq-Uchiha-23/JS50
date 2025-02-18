@@ -16,7 +16,10 @@
 // console.log(`${first} ${last}`)
 
 // question 5
-let a =12;
-console.log(a)
-a = 32;
-console.log(a)
+// let a =12;
+// console.log(a)
+// a = 32;
+// console.log(a)
+
+// question 6
+console.error("something went wrong")
