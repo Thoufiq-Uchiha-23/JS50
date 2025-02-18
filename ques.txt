@@ -12,3 +12,14 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     8. Print the type of variable holding the value true.
     9. Create a variable holding your age and log whether it's greater than 18.
     10. Log the result of 100 / 0 and observe the output.
+
+2. Variable and Data Types (10 Questions)
+    11. Declare a variable using let and log its value.
+    12. Create a constant to store the value of PI and log it.
+    13. Reassign a value to a variable declared with let and log the result.
+    14. Check the type of null and log it.
+    15. Create a variable with a number as a string (e.g., "25") and log its type.
+    16. Use typeof to check the type of the boolean variable.
+    17. Create three variables of types string, number and boolean, and log their values.
+    18. Declare a variable without assigning a value, Log it's type.
+    19. Create a variable with undefined
