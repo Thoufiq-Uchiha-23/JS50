@@ -38,4 +38,8 @@
 // else console.log(false);
 
 // question 10
-console.log(100/0) // OUTPUT: Infinity
+// console.log(100/0) // OUTPUT: Infinity
+
+// question 11
+let a = 12
+console.log(a)
