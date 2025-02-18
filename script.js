@@ -25,5 +25,9 @@
 // console.error("something went wrong")
 
 // question 7
-console.log(12 * 12)
-console.log(Math.pow(12, 2))
+// console.log(12 * 12)
+// console.log(Math.pow(12, 2))
+
+// question 8
+let a = true;
+console.log(typeof a)
