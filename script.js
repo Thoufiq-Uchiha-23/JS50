@@ -33,6 +33,9 @@
 // console.log(typeof a)
 
 // question 9
-let age = 23;
-if (age > 18) console.log(true);
-else console.log(false);
+// let age = 23;
+// if (age > 18) console.log(true);
+// else console.log(false);
+
+// question 10
+console.log(100/0) // OUTPUT: Infinity
