@@ -41,5 +41,9 @@
 // console.log(100/0) // OUTPUT: Infinity
 
 // question 11
-let a = 12
-console.log(a)
+// let a = 12
+// console.log(a)
+
+// question 12
+let pi = Math.PI;
+console.log(pi) //OUTPUT: 3.141592653589793
