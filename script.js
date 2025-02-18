@@ -54,4 +54,8 @@
 // console.log(b)
 
 // question 14
-console.log(typeof null) //OUTPUT: object
+// console.log(typeof null) //OUTPUT: object
+
+// question 15
+let a = "22"
+console.log(typeof a) //OUTPUT: string
