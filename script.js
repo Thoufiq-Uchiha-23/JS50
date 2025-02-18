@@ -9,8 +9,14 @@
 // console.log(newdate.getFullYear())
 
 // question 4
-let first = "Thoufiq";
-let last = "Izhar";
+// let first = "Thoufiq";
+// let last = "Izhar";
 
-console.log(first + " " + last)
-console.log(`${first} ${last}`)
+// console.log(first + " " + last)
+// console.log(`${first} ${last}`)
+
+// question 5
+let a =12;
+console.log(a)
+a = 32;
+console.log(a)
