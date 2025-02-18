@@ -45,5 +45,10 @@
 // console.log(a)
 
 // question 12
-let pi = Math.PI;
-console.log(pi) //OUTPUT: 3.141592653589793
+// let pi = Math.PI;
+// console.log(pi) //OUTPUT: 3.141592653589793
+
+// question 13
+let b = 12;
+b = 32;
+console.log(b)
