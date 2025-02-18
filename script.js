@@ -49,6 +49,9 @@
 // console.log(pi) //OUTPUT: 3.141592653589793
 
 // question 13
-let b = 12;
-b = 32;
-console.log(b)
+// let b = 12;
+// b = 32;
+// console.log(b)
+
+// question 14
+console.log(typeof null) //OUTPUT: object
