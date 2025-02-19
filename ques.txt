@@ -22,4 +22,12 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     16. Use typeof to check the type of the boolean variable.
     17. Create three variables of types string, number and boolean, and log their values.
     18. Declare a variable without assigning a value, Log it's type.
-    19. Create a variable with undefined
+    19. Create a variable with undefined and log its type
+    20. Use const to create an array. Try reassigning the array and observe the error.
+
+3. Loops (10 Questions)
+    21. Write a for loop to print numbers from 1 to 50.
+    22. Use a while loop to sum the numbers from 1 to 10.
+    23. Create a for...of loop to log each character of the string "JavaScript".
+    24. Write a for loop that skips even numbers between 1 and 20.
+    25. Use a do...while loop
