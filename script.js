@@ -69,5 +69,9 @@
 // console.log(a, b, c)
 
 // question 18
-let aa;
+// let aa;
+// console.log(typeof aa) //OP: undefined
+
+// question 19
+let aa= undefined;
 console.log(typeof aa) //OP: undefined
