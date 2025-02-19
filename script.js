@@ -61,5 +61,13 @@
 // console.log(typeof a) //OUTPUT: string
 
 // question 16
-let a = true;
-console.log(typeof a)   //OUTPUT: boolean
+// let a = true;
+// console.log(typeof a)   //OUTPUT: boolean
+
+// question 17
+// let a = "hey", b= 12, c = true;
+// console.log(a, b, c)
+
+// question 18
+let aa;
+console.log(typeof aa) //OP: undefined
