@@ -73,5 +73,10 @@
 // console.log(typeof aa) //OP: undefined
 
 // question 19
-let aa= undefined;
-console.log(typeof aa) //OP: undefined
+// let aa= undefined;
+// console.log(typeof aa) //OP: undefined
+
+// question 20
+const a = [1, 2, 3, 4];
+a = []
+//OP: script.js:81 Uncaught TypeError: Assignment to constant variable.
