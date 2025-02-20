@@ -81,3 +81,7 @@
 // a = []
 //OP: script.js:81 Uncaught TypeError: Assignment to constant variable.
 
+// question 21
+for (let i = 0; i < 51; i++) {
+    console.log(i)
+}
