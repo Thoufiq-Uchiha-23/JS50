@@ -82,6 +82,16 @@
 //OP: script.js:81 Uncaught TypeError: Assignment to constant variable.
 
 // question 21
-for (let i = 0; i < 51; i++) {
-    console.log(i)
+// for (let i = 0; i < 51; i++) {
+//     console.log(i)
+// }
+
+// question 22
+let a = 1;
+let sum = 0;
+while(a<11){
+    sum = sum + a;
+    a++;
 }
+
+console.log(sum) //OP: 55
