@@ -104,9 +104,17 @@
 // }
 
 // question 24
-for(let i=0; i<21; i++){
-    if(i%2 === 0){}
-    else{
-        console.log(i)
-    }
+// for(let i=0; i<21; i++){
+//     if(i%2 === 0){}
+//     else{
+//         console.log(i)
+//     }
+// }
+
+// question 25
+let aa = 5;
+do{
+    console.log(aa)
+    aa--;
 }
+while(aa>0)
