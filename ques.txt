@@ -30,4 +30,5 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     22. Use a while loop to sum the numbers from 1 to 10.
     23. Create a for...of loop to log each character of the string "JavaScript".
     24. Write a for loop that skips even numbers between 1 and 20.
-    25. Use a do...while loop
+    25. Use a do...while loop to log numbers from 5 to 1.
+    26. Create a for loop
