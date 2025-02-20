@@ -87,11 +87,18 @@
 // }
 
 // question 22
-let a = 1;
-let sum = 0;
-while(a<11){
-    sum = sum + a;
-    a++;
-}
+// let a = 1;
+// let sum = 0;
+// while(a<11){
+//     sum = sum + a;
+//     a++;
+// }
 
-console.log(sum) //OP: 55
+// console.log(sum) //OP: 55
+
+// question 23
+let str = "javascript"
+
+for (let chacha of str) {
+    console.log(chacha)
+}
