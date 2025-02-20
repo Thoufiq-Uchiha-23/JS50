@@ -97,8 +97,16 @@
 // console.log(sum) //OP: 55
 
 // question 23
-let str = "javascript"
+// let str = "javascript"
 
-for (let chacha of str) {
-    console.log(chacha)
+// for (let chacha of str) {
+//     console.log(chacha)
+// }
+
+// question 24
+for(let i=0; i<21; i++){
+    if(i%2 === 0){}
+    else{
+        console.log(i)
+    }
 }
