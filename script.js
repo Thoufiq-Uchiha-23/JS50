@@ -101,7 +101,7 @@
 
 // for (let chacha of str) {
 //     console.log(chacha)
-// }
+// } //OP: j a v a s c r i p t
 
 // question 24
 // for(let i=0; i<21; i++){
@@ -109,12 +109,19 @@
 //     else{
 //         console.log(i)
 //     }
-// }
+// } //OP: 1 3 5 7 9 11 13 15 17 19
 
 // question 25
-let aa = 5;
-do{
-    console.log(aa)
-    aa--;
+// let aa = 5;
+// do{
+//     console.log(aa)
+//     aa--;
+// }
+// while(aa>0) //OP: 5 4 3 2 1
+
+// question 26
+let fact = 1;
+for (let i = 5; i > 0; i--) {
+  fact = fact * i;
 }
-while(aa>0)
+console.log(fact) //OP: 120
