@@ -120,8 +120,24 @@
 // while(aa>0) //OP: 5 4 3 2 1
 
 // question 26
-let fact = 1;
-for (let i = 5; i > 0; i--) {
-  fact = fact * i;
-}
-console.log(fact) //OP: 120
+// let fact = 1;
+// for (let i = 5; i > 0; i--) {
+//   fact = fact * i;
+// }
+// console.log(fact) //OP: 120
+
+// question 27
+// let hold = 1;
+// for (let i = 1; i < 4; i++) {
+//   let str = "";
+//   for (let j = 1; j < 4; j++) {
+//     str += `${hold} `;
+//     hold++;
+//   }
+//   console.log(str);
+// }
+//OP: 1 2 3
+//    4 5 6
+//    7 8 9
+
+// question 28
