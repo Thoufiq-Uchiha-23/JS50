@@ -150,9 +150,21 @@
 // console.log(arr); //OP: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 // question 29
-let num = 1;
-while (num < 101) {
-  if (num % 5 === 0) console.log(num);
-  num++;
-}
+// let num = 1;
+// while (num < 101) {
+//   if (num % 5 === 0) console.log(num);
+//   num++;
+// }
 //OP: 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100
+
+// question 30
+var obj = {
+    name: "thoufiq",
+    email: "a@example.com",
+    age: "don't know",
+}
+
+for ( let key in obj){
+    console.log(key)
+}
+//OP: name email age
