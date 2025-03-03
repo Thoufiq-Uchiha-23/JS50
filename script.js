@@ -158,13 +158,20 @@
 //OP: 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100
 
 // question 30
-var obj = {
-    name: "thoufiq",
-    email: "a@example.com",
-    age: "don't know",
-}
+// var obj = {
+//     name: "thoufiq",
+//     email: "a@example.com",
+//     age: "don't know",
+// }
 
-for ( let key in obj){
-    console.log(key)
-}
+// for ( let key in obj){
+//     console.log(key)
+// }
 //OP: name email age
+
+// question 31
+var arr = ["a", "b", "c", "d", "e", "f"];
+arr.forEach(function(value) {
+    console.log(value);
+})
+//OP: a b c d e f
