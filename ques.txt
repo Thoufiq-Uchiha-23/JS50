@@ -38,4 +38,10 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     30. Use a for...in loop to iterate over an object and log its keys.
 
 4. Arrays (1o Questions)
-    31. Create an array
+    31. Create an array of your top 5 favourite movies and log it.
+    32. Find and log the second element of an array.
+    33. Add two elements to the start of an array using .unshift() .
+    34. Remove the last element of an array and log the updated array.
+    35. Use .slice() to extract the first three elements of an array.
+    36. Find the index of a specific element of an array using .indexOf() .
+    
