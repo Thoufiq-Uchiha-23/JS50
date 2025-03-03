@@ -181,7 +181,12 @@
 // console.log(arr[1]) //OP: 2
 
 // question 33
-var arr = [1, 2, 3, 4, 5]
-arr.unshift(0);
-arr.unshift(-1);
-console.log(arr) //OP: [-1, 0, 1, 2, 3, 4, 5]
+// var arr = [1, 2, 3, 4, 5]
+// arr.unshift(0);
+// arr.unshift(-1);
+// console.log(arr) //OP: [-1, 0, 1, 2, 3, 4, 5]
+
+// question 34
+var arr = [1, 2, 3, 4, 5];
+arr.pop();
+console.log(arr) //OP: [1, 2, 3, 4]
