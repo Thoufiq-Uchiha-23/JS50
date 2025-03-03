@@ -170,8 +170,12 @@
 //OP: name email age
 
 // question 31
-var arr = ["a", "b", "c", "d", "e", "f"];
-arr.forEach(function(value) {
-    console.log(value);
-})
+// var arr = ["a", "b", "c", "d", "e", "f"];
+// arr.forEach(function(value) {
+//     console.log(value);
+// })
 //OP: a b c d e f
+
+// question 32
+var arr = [1,2, 3, 4];
+console.log(arr[1]) //OP: 2
