@@ -254,10 +254,20 @@
 // [11, 24, 36, 4]
 
 // question 41
-function evod(value) {
-  if (value % 2 === 0) return "even";
-  else return "odd";
+// function evod(value) {
+//   if (value % 2 === 0) return "even";
+//   else return "odd";
+// }
+
+// console.log(evod(12))
+//OP: even
+
+// question 42
+function area(r) {
+  return Math.PI * r * r;
+  // to get round/floor figure or without decimals
+  // return Math.round(Math.PI * r * r);
 }
 
-console.log(evod(12))
-//OP: even
+console.log(area(12));
+//OP: 452.3893421169302
