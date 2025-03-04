@@ -55,4 +55,8 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     43. Write a function that accepts an array and returns the sum of its elements.
     44. Create a function that checks if a string starts with a specific character.
     45. Write a function to find maximum of 2 numbers.
-    46. Create a function
+    46. Create a function that takes a number and return its factorial.
+    47. Write a function that accepts a string and returns its reverse.
+    48. Create a function to find the largest number in an array.
+    49. Write a function that converts a string to kebab-case ( e.g "hello world) -> ("hello-world")
+    50. Create a function that logs "Hello World!" every time it is called.
