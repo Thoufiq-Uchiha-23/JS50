@@ -263,11 +263,24 @@
 //OP: even
 
 // question 42
-function area(r) {
-  return Math.PI * r * r;
-  // to get round/floor figure or without decimals
-  // return Math.round(Math.PI * r * r);
+// function area(r) {
+//   return Math.PI * r * r;
+//   // to get round/floor figure or without decimals
+//   // return Math.round(Math.PI * r * r);
+// }
+
+// console.log(area(12));
+//OP: 452.3893421169302
+
+// question 43
+function sumofarr(arr) {
+  var sum = 0;
+
+  arr.forEach(function (v) {
+    sum = sum + v;
+  });
+  return sum;
 }
 
-console.log(area(12));
-//OP: 452.3893421169302
+console.log(sumofarr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+//OP: 55
