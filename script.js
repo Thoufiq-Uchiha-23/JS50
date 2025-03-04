@@ -240,15 +240,24 @@
 //OP: [4, 5, 11, 24, 36]
 
 // question 40
-var arr = [11, 24, 36, 4, 5];
-var arr2 = [];
+// var arr = [11, 24, 36, 4, 5];
+// var arr2 = [];
 
-arr.forEach(function(value) {
-  arr2.push(value)
-})
+// arr.forEach(function(value) {
+//   arr2.push(value)
+// })
 
-arr2.pop()
+// arr2.pop()
 
-console.log(arr, arr2)
-//OP: [11, 24, 36, 4, 5] 
+// console.log(arr, arr2)
+//OP: [11, 24, 36, 4, 5]
 // [11, 24, 36, 4]
+
+// question 41
+function evod(value) {
+  if (value % 2 === 0) return "even";
+  else return "odd";
+}
+
+console.log(evod(12))
+//OP: even
