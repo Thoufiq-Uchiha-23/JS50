@@ -308,13 +308,21 @@
 //OP: 11
 
 // question 46
-function getFact(num) {
-  let fct = 1;
-  for (let i = 1; i <= num; i++) {
-    fct = fct * i;
-  }
-  return fct;
+// function getFact(num) {
+//   let fct = 1;
+//   for (let i = 1; i <= num; i++) {
+//     fct = fct * i;
+//   }
+//   return fct;
+// }
+
+// console.log(getFact(5));
+//OP: 120
+
+// question 47
+function abcd(value) {
+  return value.split("").reverse().join("");
 }
 
-console.log(getFact(5));
-//OP: 120
+console.log(abcd("harsh"))
+// OP: hsrah
