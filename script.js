@@ -286,13 +286,23 @@
 //OP: 55
 
 // question 44
-function checker(str, char) {
-  // Simplified one
-  // return str.startsWith(char);
-  // but it gives issue(false) when we have uppercase letter
-  // so we have to convert this into lowercase then return the value
-  return str.toLowerCase().startsWith(char.toLowerCase());
+// function checker(str, char) {
+//   // Simplified one
+//   // return str.startsWith(char);
+//   // but it gives issue(false) when we have uppercase letter
+//   // so we have to convert this into lowercase then return the value
+//   return str.toLowerCase().startsWith(char.toLowerCase());
+// }
+
+// console.log(checker("Thoufiq", "t"));
+//OP: true
+
+// question 45
+function max(a, b) {
+  if(a > b) return a;
+  else if (a < b) return b;
+  else return "equals";
 }
 
-console.log(checker("Thoufiq", "t"));
-//OP: true
+console.log(max(11, 2))
+//OP: 11
