@@ -328,16 +328,27 @@
 // OP: hsrah
 
 // question 48
-function abcd(arr) {
-  var max = 0;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > arr[max]) {
-      max = i;
-    }
-  }
+// function abcd(arr) {
+//   var max = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > arr[max]) {
+//       max = i;
+//     }
+//   }
 
-  return arr[max];
+//   return arr[max];
+// }
+
+// console.log(abcd([1, 2, 13, 4, 5, 6, 7]));
+//OP: 13
+
+// question 49
+function kebab(str){
+  // 1
+  return str.split(" ").join("-");
+  // 2
+  // return str.replaceAll(" ", "-");
 }
 
-console.log(abcd([1, 2, 13, 4, 5, 6, 7]));
-//OP: 13
+console.log(kebab("hey kaise ho"))
+//OP: hey-kaise-ho
