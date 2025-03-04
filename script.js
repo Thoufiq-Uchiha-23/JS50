@@ -187,6 +187,11 @@
 // console.log(arr) //OP: [-1, 0, 1, 2, 3, 4, 5]
 
 // question 34
+// var arr = [1, 2, 3, 4, 5];
+// arr.pop();
+// console.log(arr) //OP: [1, 2, 3, 4]
+
+// question 35
 var arr = [1, 2, 3, 4, 5];
-arr.pop();
-console.log(arr) //OP: [1, 2, 3, 4]
+console.log(arr.slice(0, 3))
+//OP: [1, 2, 3]
