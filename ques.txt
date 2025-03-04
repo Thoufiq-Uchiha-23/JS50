@@ -50,3 +50,9 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     40. Write a program that creates a copy of an array without mutating the original.
 
 5. Functions (10 Questions)
+    41. Write a function to check if a number is even or odd.
+    42. Create a function to calculate the area of circle with a given radius.
+    43. Write a function that accepts an array and returns the sum of its elements.
+    44. Create a function that checks if a string starts with a specific character.
+    45. Write a function to find maximum of 2 numbers.
+    46. Create a function
