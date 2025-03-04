@@ -44,4 +44,9 @@ Here is a collection of 100 JavaScript questions, divided into groups of 10, bas
     34. Remove the last element of an array and log the updated array.
     35. Use .slice() to extract the first three elements of an array.
     36. Find the index of a specific element of an array using .indexOf() .
-    
+    37. Check if a value exists in an array using .includes() .
+    38. Combine two arrays [1, 2] and [3, 4] using .concat() .
+    39. Sort an array of numbers [5, 2, 9, 1] in ascending order .
+    40. Write a program that creates a copy of an array without mutating the original.
+
+5. Functions (10 Questions)
