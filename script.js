@@ -343,12 +343,20 @@
 //OP: 13
 
 // question 49
-function kebab(str){
-  // 1
-  return str.split(" ").join("-");
-  // 2
-  // return str.replaceAll(" ", "-");
-}
+// function kebab(str){
+//   // 1
+//   return str.split(" ").join("-");
+//   // 2
+//   // return str.replaceAll(" ", "-");
+// }
 
-console.log(kebab("hey kaise ho"))
+// console.log(kebab("hey kaise ho"))
 //OP: hey-kaise-ho
+
+// question 50
+function abcd() {
+  console.log("hello world")
+}
+abcd();
+abcd();
+abcd();
