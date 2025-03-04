@@ -273,14 +273,26 @@
 //OP: 452.3893421169302
 
 // question 43
-function sumofarr(arr) {
-  var sum = 0;
+// function sumofarr(arr) {
+//   var sum = 0;
 
-  arr.forEach(function (v) {
-    sum = sum + v;
-  });
-  return sum;
+//   arr.forEach(function (v) {
+//     sum = sum + v;
+//   });
+//   return sum;
+// }
+
+// console.log(sumofarr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+//OP: 55
+
+// question 44
+function checker(str, char) {
+  // Simplified one
+  // return str.startsWith(char);
+  // but it gives issue(false) when we have uppercase letter
+  // so we have to convert this into lowercase then return the value
+  return str.toLowerCase().startsWith(char.toLowerCase());
 }
 
-console.log(sumofarr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
-//OP: 55
+console.log(checker("Thoufiq", "t"));
+//OP: true
