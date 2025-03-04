@@ -298,11 +298,23 @@
 //OP: true
 
 // question 45
-function max(a, b) {
-  if(a > b) return a;
-  else if (a < b) return b;
-  else return "equals";
+// function max(a, b) {
+//   if(a > b) return a;
+//   else if (a < b) return b;
+//   else return "equals";
+// }
+
+// console.log(max(11, 2))
+//OP: 11
+
+// question 46
+function getFact(num) {
+  let fct = 1;
+  for (let i = 1; i <= num; i++) {
+    fct = fct * i;
+  }
+  return fct;
 }
 
-console.log(max(11, 2))
-//OP: 11
+console.log(getFact(5));
+//OP: 120
