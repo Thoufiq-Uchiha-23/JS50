@@ -320,9 +320,24 @@
 //OP: 120
 
 // question 47
-function abcd(value) {
-  return value.split("").reverse().join("");
+// function abcd(value) {
+//   return value.split("").reverse().join("");
+// }
+
+// console.log(abcd("harsh"))
+// OP: hsrah
+
+// question 48
+function abcd(arr) {
+  var max = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > arr[max]) {
+      max = i;
+    }
+  }
+
+  return arr[max];
 }
 
-console.log(abcd("harsh"))
-// OP: hsrah
+console.log(abcd([1, 2, 13, 4, 5, 6, 7]));
+//OP: 13
