@@ -207,7 +207,32 @@
 // console.log(arr.includes(1)) //OP: true
 
 // question 38
-var arr = [1, 2, 3, 4, 5];
-var arr2 = [5, 6, 7];
-console.log(arr.concat(arr2))
+// var arr = [1, 2, 3, 4, 5];
+// var arr2 = [5, 6, 7];
+// console.log(arr.concat(arr2))
 //OP: [1, 2, 3, 4, 5, 5, 6, 7]
+
+// question 39
+// Simple Method to sort by bubble sort
+var arr = [11, 24, 36, 4, 5];
+for (let j = 0; j < arr.length; j++) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] > arr[i + 1]) {
+      var temp = arr[i];
+      arr[i] = arr[i + 1];
+      arr[i + 1] = temp;
+    }
+  }
+}
+
+//Optimized method to sort by bubble sort
+for (let j = 0; j < arr.length - 1; j++) {
+  for (let i = 0; i < arr.length - j - 1; i++) {
+    if (arr[i] > arr[i + 1]) {
+      var temp = arr[i];
+      arr[i] = arr[i + 1];
+      arr[i + 1] = temp;
+    }
+  }
+}
+console.log(arr);
