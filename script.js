@@ -202,6 +202,12 @@
 //OP: 3
 
 // question 37
+// var arr = [1, 2, 3, 4, 5];
+// console.log(arr.includes(12)) //OP: false
+// console.log(arr.includes(1)) //OP: true
+
+// question 38
 var arr = [1, 2, 3, 4, 5];
-console.log(arr.includes(12)) //OP: false
-console.log(arr.includes(1)) //OP: true
+var arr2 = [5, 6, 7];
+console.log(arr.concat(arr2))
+//OP: [1, 2, 3, 4, 5, 5, 6, 7]
