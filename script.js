@@ -214,25 +214,41 @@
 
 // question 39
 // Simple Method to sort by bubble sort
-var arr = [11, 24, 36, 4, 5];
-for (let j = 0; j < arr.length; j++) {
-  for (let i = 0; i < arr.length - 1; i++) {
-    if (arr[i] > arr[i + 1]) {
-      var temp = arr[i];
-      arr[i] = arr[i + 1];
-      arr[i + 1] = temp;
-    }
-  }
-}
+// var arr = [11, 24, 36, 4, 5];
+// for (let j = 0; j < arr.length; j++) {
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     if (arr[i] > arr[i + 1]) {
+//       var temp = arr[i];
+//       arr[i] = arr[i + 1];
+//       arr[i + 1] = temp;
+//     }
+//   }
+// }
 
-//Optimized method to sort by bubble sort
-for (let j = 0; j < arr.length - 1; j++) {
-  for (let i = 0; i < arr.length - j - 1; i++) {
-    if (arr[i] > arr[i + 1]) {
-      var temp = arr[i];
-      arr[i] = arr[i + 1];
-      arr[i + 1] = temp;
-    }
-  }
-}
-console.log(arr);
+// //Optimized method to sort by bubble sort
+// for (let j = 0; j < arr.length - 1; j++) {
+//   for (let i = 0; i < arr.length - j - 1; i++) {
+//     if (arr[i] > arr[i + 1]) {
+//       var temp = arr[i];
+//       arr[i] = arr[i + 1];
+//       arr[i + 1] = temp;
+//     }
+//   }
+// }
+// console.log(arr);
+
+//OP: [4, 5, 11, 24, 36]
+
+// question 40
+var arr = [11, 24, 36, 4, 5];
+var arr2 = [];
+
+arr.forEach(function(value) {
+  arr2.push(value)
+})
+
+arr2.pop()
+
+console.log(arr, arr2)
+//OP: [11, 24, 36, 4, 5] 
+// [11, 24, 36, 4]
