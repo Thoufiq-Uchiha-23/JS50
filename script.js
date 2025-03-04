@@ -197,6 +197,11 @@
 //OP: [1, 2, 3]
 
 // question 36
-var arr = [1, 2, 3, 4, 5];
-console.log(arr.indexOf(4))
+// var arr = [1, 2, 3, 4, 5];
+// console.log(arr.indexOf(4))
 //OP: 3
+
+// question 37
+var arr = [1, 2, 3, 4, 5];
+console.log(arr.includes(12)) //OP: false
+console.log(arr.includes(1)) //OP: true
